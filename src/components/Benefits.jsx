@@ -36,7 +36,7 @@ const Benefits = () => {
                   <p className="ml-auto font-code text-xs font-bold text-neutral-100 uppercase tracking-wider">
                     Explore more
                   </p>
-                  <Arrow className="text-white" /> {/* Arrow rengini beyaz yap */}
+                  <Arrow className="text-white" /> 
                 </div>
               </div>
 
