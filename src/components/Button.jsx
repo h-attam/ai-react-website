@@ -7,11 +7,11 @@ const Button = ({ className = "", href, onClick, children, px = "", white }) => 
 
   const spanClasses = "relative z-10";
 
-  // Eğer "href" varsa ama dışarıdan <a> etiketi ile çağrılmışsa, sadece "button" döndür
+  
   if (href) {
     return (
       <>
-        {/* Eğer ebeveyn bir <a> etiketi içeriyorsa, sadece <button> render et */}
+       
         {href.startsWith("#") ? (
           <a href={href} className={classes}>
             <span className={spanClasses}>{children}</span>
