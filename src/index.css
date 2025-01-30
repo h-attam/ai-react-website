@@ -1,0 +1,97 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import "tailwindcss";
+/* Global CSS Variables */
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+/* Smooth Scrolling */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Base Styles */
+@layer base {
+  body {
+    @apply font-sans bg-gray-900 text-white text-base;
+  }
+}
+
+/* Rotation Utilities */
+@layer utilities {
+  .rotate-45 {
+    @apply rotate-[45deg];
+  }
+
+  .rotate-90 {
+    @apply rotate-[90deg];
+  }
+
+  .rotate-135 {
+    @apply rotate-[135deg];
+  }
+
+  .rotate-180 {
+    @apply rotate-[180deg];
+  }
+
+  .rotate-225 {
+    @apply rotate-[225deg];
+  }
+
+  .rotate-270 {
+    @apply rotate-[270deg];
+  }
+
+  .rotate-315 {
+    @apply rotate-[315deg];
+  }
+
+  .rotate-360 {
+    @apply rotate-[360deg];
+  }
+
+  .-rotate-45 {
+    @apply -rotate-[45deg];
+  }
+
+  .-rotate-90 {
+    @apply -rotate-[90deg];
+  }
+
+  .-rotate-135 {
+    @apply -rotate-[135deg];
+  }
+
+  .-rotate-180 {
+    @apply -rotate-[180deg];
+  }
+
+  .-rotate-225 {
+    @apply -rotate-[225deg];
+  }
+
+  .-rotate-270 {
+    @apply -rotate-[270deg];
+  }
+
+  .-rotate-315 {
+    @apply -rotate-[315deg];
+  }
+
+  .-rotate-360 {
+    @apply -rotate-[360deg];
+  }
+}
+
+.bg-conic-gradient {
+  background: conic-gradient(from 90deg at 50% 50%, #88E5BE, #F9CA7A, #DC85E1, #8ECAF2, #B989F3);
+}
